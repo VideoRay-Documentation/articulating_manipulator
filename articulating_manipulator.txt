@@ -1,0 +1,23 @@
+#Document Commands
+!PRODUCT,Articulating Manipulator
+!VERSION,1.00.00
+!DOC_TYPE,<br>Operator's Manual
+!OUT_DIR,articulating_manipulator/
+!VALID_PAGES,
+!VALID_TEXT,
+!TEMPLATE_COVER,required/htm/template_index_print.htm,index_print.htm
+
+#Documentation Generation
+!INCLUDE,required/intro_qs_.txt,1
+!INCLUDE,required/overview_qs_.txt,1
+
+*,Equipment Guide,,equipment_.htm,,,
+**,Interchangeable Jaws,,jaws.htm,,,
+
+*,Software Guide,,software_.htm,,,
+
+*,Operations Guide,,operations_.htm,,,
+
+*,Maintenance Guide,,maintenance_.htm,,,
+
+*,Compatibility Guide,,compatibility_.htm,,,
