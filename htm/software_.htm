@@ -1,5 +1,12 @@
 <h1>Software Guide</h1>
 
-<p>The topside software is called Cockpit. In order to operate the Articulating Manipulator,cockpit must be installed. The user interface should display resizeable floating blue windows all around the display (like the compass, depth gauge, etc.)</p>
+<p>The topside software is called Cockpit. Installation of some config files is necessary to operate the Articulating Manipulator. This can be accomplished by running the appropriate accessory device configuration AccessoryConfiguration.exe (see \\vrserver02\r_and_d\software_development\ACCESSORY\STANDARD_INUKTUN_MANIP\)</p>	
 
-<p>The Articulating Manipulator UI is located in the mannipulator instrument. This displays if the Articulating Manipulator is opening/closing or rotating clockwise or counter clockwise.Diagnostic displays on the communication panel will go red if communication to the Articulating Manipulator is lost.</p>
+<p> Running the config will install the accessory device file. This file identifies the Articulating Manipulator to Cockpit and establishes a connection. If this file exists in the proper directory then the manip instrument will be visible. This process will also install (overwrite) the hand controller configuration file, which is responsible for telling Cockpit how to map the Hand Controller to specific actions.The new controller configuration will map the open,close, and joystick rotate actions to the Articulating Manipulator.</p>
+ 
+ <p>In order to operate the Articulating Manipulator,Cockpit must be installed. The user interface should display resizeable floating blue windows all around the display (like the compass, depth gauge, etc.)</p>
+
+<p align="center"><img src="../../pro_4/images/vrcockpit_baseline.png" name="cockpit"><br>
+VideoRay Cockpit screen with simulated video image - your image will likely be different.</p>
+
+<p>The Articulating Manipulator UI is located in the manipulator instrument. This displays if the Articulating Manipulator is opening/closing or rotating clockwise or counter clockwise. Diagnostic displays on the communication panel will go red if communication to the Articulating Manipulator is lost.</p>
