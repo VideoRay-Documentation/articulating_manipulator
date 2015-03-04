@@ -12,12 +12,12 @@
 !INCLUDE,required/overview_qs_.txt,1
 
 *,Equipment Guide,,equipment_.htm,,,
-**,Installation,,installation.htm,,,
 **,Interchangeable Jaws,,jaws.htm,,,
 
 *,Software Guide,,software_.htm,,,
 
 *,Operations Guide,,operations_.htm,,,
+**,Installation,,installation.htm,,,
 
 *,Maintenance Guide,,maintenance_.htm,,,
 

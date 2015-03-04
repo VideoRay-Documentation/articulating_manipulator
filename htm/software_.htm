@@ -1,14 +1,24 @@
 <h1>Software Guide</h1>
 
-<p>The topside software is called Cockpit. Installation of some config files is necessary to operate the Articulating Manipulator. This can be accomplished by running the appropriate accessory device configuration AccessoryConfiguration.exe (see \\vrserver02\r_and_d\software_development\ACCESSORY\STANDARD_INUKTUN_MANIP\)</p>	
+<p>An installation of config files that can be found on a flash drive included in the kit is necessary to operate the Articulating Manipulator. This can be accomplished by running the appropriate acessory device configuration AccessoryConfiguration.exe. The Articulating Manipulator kit comes with a flash drive that contains these config files, but alternatively they can be downloaded from the VideoRay website.</p>	
 
 <p> Running the config will install the accessory device file. This file identifies the Articulating Manipulator to Cockpit and establishes a connection. If this file exists in the proper directory then the manip instrument will be visible. This process will also install (overwrite) the hand controller configuration file, which is responsible for telling Cockpit how to map the Hand Controller to specific actions.The new controller configuration will map the open,close, and joystick rotate actions to the Articulating Manipulator.</p>
  
  <p>In order to operate the Articulating Manipulator,Cockpit must be installed. The user interface should display resizeable floating blue windows all around the display (like the compass, depth gauge, etc.)</p>
 
-<p align="center"><img src="../../pro_4/images/vrcockpit_baseline.png" name="cockpit"><br>
-VideoRay Cockpit screen with simulated video image - your image will likely be different.</p>
+<p>The Articulating Manipulator Status Indicator provides feedback on whether the Articulating Manipulator is opening, closing or stationary.</p>
+
+<h2>Display</h2>
+
+<p><img src="../../pro_4/images/instrument_manip.png"></p>
+
+<h2>Use</h2>
+
+<p>When the manipulators opening or closing, the display is animated to indicate the action.</p>
+
+<p><img src="../../pro_4/images/instrument_manip_open.png"></p>
+<p><img src="../../pro_4/images/instrument_manip_close.png"></p>
 
 <p>The Articulating Manipulator UI is located in the manipulator instrument. This displays if the Articulating Manipulator is opening/closing or rotating clockwise or counter clockwise. Diagnostic displays on the communication panel will go red if communication to the Articulating Manipulator is lost.</p>
 
-<p>For more information on Cockpit, please view the <a href="../../pro_4/html/cockpit_.html"target="_blank"> Pro 4 Operator Manual's Cockpit Guide.
+<p>For more information on Cockpit, please view the <a href="../../pro_4/html/instrument_acc_manip.html"target="_blank"> Pro 4 Operator Manual's Cockpit Guide.
