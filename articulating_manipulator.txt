@@ -20,5 +20,6 @@
 **,Installation,,installation.htm,,,
 
 *,Maintenance Guide,,maintenance_.htm,,,
+**,Diagnostics,,diagnostics.htm,,,
 
 *,Compatibility Guide,,compatibility_.htm,,,
