@@ -13,13 +13,18 @@
 
 *,Equipment Guide,,equipment_.htm,,,
 **,Interchangeable Jaws,,jaws.htm,,,
+**,Installation and Removal,,installation_removal.htm,,,
+***,Changing Jaws,,changing_jaws.htm,,,
+***,Mounting on the ROV,,mounting.htm,,,
 
 *,Software Guide,,software_.htm,,,
+**,Software Management,,software_management.htm,,,
+***,Software Installation,,software_installation.htm,,,
+***,Software Updates,,software_updates.htm,,,
 
 *,Operations Guide,,operations_.htm,,,
-**,Installation,,installation.htm,,,
 
 *,Maintenance Guide,,maintenance_.htm,,,
-**,Diagnostics,,diagnostics.htm,,,
+#**,Diagnostics Manual,NUL,../../vital_articulating_manipulator/html/_2.htm,,,
 
-*,Compatibility Guide,,compatibility_.htm,,,
+*,Compatibility Guide,,compatibility_.htm,,compatibility_sb.htm,
